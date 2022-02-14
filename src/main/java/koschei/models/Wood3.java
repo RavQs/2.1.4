@@ -5,10 +5,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class Wood3 {
-
+    @Autowired
     private final Rabbit4 rabbit;
 
-    @Autowired
     public Wood3(Rabbit4 rabbit) {
         this.rabbit = rabbit;
     }
